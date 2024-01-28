@@ -1,0 +1,131 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x4d67430550bdff778c3a11e4b46b7add6d1b3c4ee078ac8a4c3d9c3be41b9b6d",
+		"0x6441481bdc5a918c7b1e91b8152cf3b95b157efb6c3bc161b23074671912c175",
+		"0x713525e426544d135d5a7f80cec40dd8286632b975b6c297cceef9f433dfb1c0",
+		"0x76bf905ff7eb5c10b5a28d1ff88ebb52b9b05edd8d2a663210d389bee0c28c69"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0x41302bc8de494c0f675f4739b201951149d31221717f20eabead7012a92855e4",
+					"transactionOutputIndex": 0
+				},
+				{
+					"type": 0,
+					"transactionId": "0xc057f45e553780dcb6499faaf58c4c29df25e2a744281d219a3047134ecce41d",
+					"transactionOutputIndex": 1
+				}
+			],
+			"inputsCommitment": "0x6287a07d0edee71b61c12b34f5b108ebc4f83b514c2a744f40594d2b0a4c975b",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20009053000",
+					"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6",
+					"stateIndex": 7,
+					"stateMetadata": "0x010100000023145c18fcbf37f6491c0626d8690aa9954fb5c0d4e414bdf45d327439d4ba3984cc4cce87d8405c010000000100000064000000010000000000",
+					"foundryCounter": 1,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xb265b45a0dcd96ab846acaa371d61f61756f5d1076e09ccfde36f4422148956a"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				},
+				{
+					"type": 3,
+					"amount": "265000",
+					"nativeTokens": [
+						{
+							"id": "0x08b1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac60100000000",
+							"amount": "0x64"
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						}
+					]
+				},
+				{
+					"type": 5,
+					"amount": "264000",
+					"serialNumber": 1,
+					"tokenScheme": {
+						"type": 0,
+						"mintedTokens": "0x64",
+						"meltedTokens": "0x0",
+						"maximumSupply": "0x64"
+					},
+					"unlockConditions": [
+						{
+							"type": 6,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xa94efae9abcb81dcce21601ae926b56b29e61666d8b0fa4533dc6fca8bd56b28",
+					"signature": "0x98cc486528eb5619657c12ea0a241592101d1896b243ff160e8b611e27ffa42777b202c8ab865f1c27ee3bac9e5a69a3026340315cd60e4a7e5d92814a21be0f"
+				}
+			},
+			{
+				"type": 2,
+				"reference": 0
+			}
+		]
+	},
+	"nonce": "0"
+}

@@ -1,0 +1,111 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x07cec33c90fd9f803826f5de767d038bca70ee07f8c11ab7fdf175ba256bd7c4",
+		"0x4ee0f87ad2fa7322c546615568e723bb809c60b6ca608b85ebe0cf38d7f6ab72",
+		"0xb5042befbe7ef1d79b67c57281e119fc1f4a1e70dd50b0441ab406d4d22819ac",
+		"0xe7980facd88b20f9ae996370ca059f137a99dc072b9397a9fd75bdd64288096d"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0xda396a6abb0d73d5cf23836b5f069deff4cb5049a618c65a792da5294555da52",
+					"transactionOutputIndex": 0
+				},
+				{
+					"type": 0,
+					"transactionId": "0x42905b535edc614e02041123bd8ba0c2f8f914bbd29f4f4a89adeaf80856578a",
+					"transactionOutputIndex": 2
+				}
+			],
+			"inputsCommitment": "0xd770ef43cf05f41434eaf28a27d2867310917a115d6d9299ab82ea6ce6ae6743",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20011153000",
+					"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743",
+					"stateIndex": 4,
+					"stateMetadata": "0x010100000002b54489160f9bbd47f8512a56bb9ec3462445f4de7885f52cbc728db8333d01bb7f7254992fb875010000000100000064000000010000000000",
+					"foundryCounter": 0,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xccbd1be58594fa4e520380f4a5f15bd1d227f54290ad965755a68444494304c0"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				},
+				{
+					"type": 3,
+					"amount": "265000",
+					"nativeTokens": [
+						{
+							"id": "0x08b1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac60100000000",
+							"amount": "0x2"
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743"
+							}
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xbf45ad07bd37eaafdac4e83be7aa9fcc2e1fd7d58f5667502a33ce5da2b83579",
+					"signature": "0x5854998503a552b05c4f40daa12226cd4329e7938e8d0a288b141a03ea517544464eef88d975ec63995da156f18e26dded253ab95e264ac87358a9a972472e00"
+				}
+			},
+			{
+				"type": 2,
+				"reference": 0
+			}
+		]
+	},
+	"nonce": "0"
+}

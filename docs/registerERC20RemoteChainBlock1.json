@@ -1,0 +1,100 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x28297f08c4dab918c934349824e57489f503d2d374cff3fedae9e44c04965a22",
+		"0x91ac69ebb8e3f0051c114284b35d730d12a5b9c46dbb18e484cb85335ca84ed2",
+		"0xd5e59fd53d8dd6ab7611adf0c7a96073e0f089ec4fa5912038a5b9a5643ba22b",
+		"0xe6cc147742cb4c904199a96c67f60a7d2ff685066ea0893bcbc4291e050add6f"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0xd0e2087de8fd37c826e51c2ec1ba98d9280f7a5e66534cc2effc3b049825fdf9",
+					"transactionOutputIndex": 0
+				}
+			],
+			"inputsCommitment": "0x9a045b6a9c3144c9f6296e0fb735c49f303e0dd3a5de2616a3cf1c5c579a7d39",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20009318000",
+					"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6",
+					"stateIndex": 6,
+					"stateMetadata": "0x0101000000c4023c205bc4b0627fe900d6e0f0f091be7c1da53c954d890f66c06a86732a398d1b34e1008bc266010000000100000064000000010000000000",
+					"foundryCounter": 1,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xb265b45a0dcd96ab846acaa371d61f61756f5d1076e09ccfde36f4422148956a"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				},
+				{
+					"type": 3,
+					"amount": "418000",
+					"unlockConditions": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x01c102cb07c102cb0707d60088a1c21e0501546100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006400000000000000000000000000000000000000000000000000000000000000016401020266730401000000016e11577261707065642044656d6f546f6b656e01740477444d4f00"
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xa94efae9abcb81dcce21601ae926b56b29e61666d8b0fa4533dc6fca8bd56b28",
+					"signature": "0x6734ad43441ed51999c258bae6fb684abc4855afea5e085f97cc4e9e1ee0eebf1b0ca44a6f5ee06f0d3d44d28ad8f1148e020a17e00047ac9b286ed39814560f"
+				}
+			}
+		]
+	},
+	"nonce": "0"
+}

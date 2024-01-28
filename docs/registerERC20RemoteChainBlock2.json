@@ -1,0 +1,83 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x91ac69ebb8e3f0051c114284b35d730d12a5b9c46dbb18e484cb85335ca84ed2",
+		"0xb5326c2d40c3ee4a923ba52be01f4ace97d1f090624e6f18a581573a7f66aee3",
+		"0xd5e59fd53d8dd6ab7611adf0c7a96073e0f089ec4fa5912038a5b9a5643ba22b",
+		"0xe6cc147742cb4c904199a96c67f60a7d2ff685066ea0893bcbc4291e050add6f"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0xbdde53a2c9cf3ec37bddb5bc0f7a315ac9f34dbdddbf67dda8f4cd781a46e5d8",
+					"transactionOutputIndex": 0
+				},
+				{
+					"type": 0,
+					"transactionId": "0x41302bc8de494c0f675f4739b201951149d31221717f20eabead7012a92855e4",
+					"transactionOutputIndex": 1
+				}
+			],
+			"inputsCommitment": "0xa69a73fa0665764d4721bc75153e0e952b549a2a7d95c7d5a3a941dac95d32e2",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20010418000",
+					"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743",
+					"stateIndex": 3,
+					"stateMetadata": "0x0101000000d002397fd64bed55bb9f529457af0013a665d099382a7f278492cbb79e51f5f4458c209faf0215ba010000000100000064000000010000000000",
+					"foundryCounter": 0,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xccbd1be58594fa4e520380f4a5f15bd1d227f54290ad965755a68444494304c0"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xbf45ad07bd37eaafdac4e83be7aa9fcc2e1fd7d58f5667502a33ce5da2b83579",
+					"signature": "0x28ac569f45462dc4a697ddd8473bef892b30849d3743c895d6685007e211a6bd1eb87694fba1ddd04ecf76a7181de67645599d40f5a7f14925eb4abd85d86601"
+				}
+			},
+			{
+				"type": 2,
+				"reference": 0
+			}
+		]
+	},
+	"nonce": "0"
+}

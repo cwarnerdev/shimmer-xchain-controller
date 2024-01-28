@@ -1,0 +1,94 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x414d43b9307579777fbd99a010c689a01d3c575fcf55cb004a8dab2829908391",
+		"0xa4e0a840b587a2ba325231d13070500e915f1d5c7f3313ec239dbff59669699f",
+		"0xb9645c1e24f4d448e7248c0cafdbe14f828cf268aedfdb2599e61f996a383057",
+		"0xcbc8a8a1f4c183d9b24ad05971c94e19bae21aae3ee84d15ec8b31df81b6745b"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0xc2ddc6c99800ddf5ccc7edb74963a4f444a10bc5070df5c42db6b6da0b707c3a",
+					"transactionOutputIndex": 0
+				}
+			],
+			"inputsCommitment": "0xaddf5c15067949f362da2d9862ae21daa54e620c667ed7222e9f39f6fe8bea28",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20009736000",
+					"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6",
+					"stateIndex": 4,
+					"stateMetadata": "0x01010000009498114999591c731d17addf527e696703007215b5b59ad37a452865b924f96aa7da50eb9da4b531010000000100000064000000010000000000",
+					"foundryCounter": 1,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xb265b45a0dcd96ab846acaa371d61f61756f5d1076e09ccfde36f4422148956a"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				},
+				{
+					"type": 5,
+					"amount": "264000",
+					"serialNumber": 1,
+					"tokenScheme": {
+						"type": 0,
+						"mintedTokens": "0x0",
+						"meltedTokens": "0x0",
+						"maximumSupply": "0x64"
+					},
+					"unlockConditions": [
+						{
+							"type": 6,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xa94efae9abcb81dcce21601ae926b56b29e61666d8b0fa4533dc6fca8bd56b28",
+					"signature": "0x21400c53bb6f5a3d52784f6df02ce8425cab57b274306c7f4f8d088b70bfd78181803683555e81ffb92ab53c132b6fb0c54511979f2efee452b80f3036052700"
+				}
+			}
+		]
+	},
+	"nonce": "0"
+}

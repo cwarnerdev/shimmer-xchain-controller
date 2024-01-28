@@ -1,0 +1,74 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x1486b7b9fe6453f34fff4f7f4e821b507ad56ce7482e2f0996e2022fd3abcd6f",
+		"0x25be309a7fa8474e6a334a477a68318197ed244a689e7060a1cac9d99806adf5",
+		"0x6c9dd9f2a8913846230eb62f81d27fc4b8fe08646380ea4cd66923b8debfd2fa",
+		"0x8a4ba840e86732b78d569b6476c8831dafdd8f276874f7e8b7c3cab3264fd98c"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0x809b7bc69c3166510642af239d5b52e67a8e662440f9830aa24db394a57e4875",
+					"transactionOutputIndex": 0
+				}
+			],
+			"inputsCommitment": "0xf5dc08de83c2cab82250e35c8794e4ff68d5a5ca0142263584a5e907da9f4f32",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20009053000",
+					"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6",
+					"stateIndex": 8,
+					"stateMetadata": "0x0101000000d7aa210cf5c393e1fb900c7d4b7fe650cc8529b4d7aec785c2168cbd3f7a78451d68429b228a2f5a010000000100000064000000010000000000",
+					"foundryCounter": 1,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xb265b45a0dcd96ab846acaa371d61f61756f5d1076e09ccfde36f4422148956a"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xa94efae9abcb81dcce21601ae926b56b29e61666d8b0fa4533dc6fca8bd56b28",
+					"signature": "0x004c56b506da99f2b88b0dc00f2c7407a84b5e483258c1c708b8970fc3c70daf28da99ba213383158b283278de2da1ef7a47344a554f677f163afa15f3b05904"
+				}
+			}
+		]
+	},
+	"nonce": "0"
+}

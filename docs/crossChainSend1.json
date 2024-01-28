@@ -1,0 +1,143 @@
+{
+	"protocolVersion": 2,
+	"parents": [
+		"0x1bd7868279a625c72de4cfbabe3eea427dd52d604dec7dbd42e77cf6cb44fc7f",
+		"0x34449cd5ed3d9b04f8c97c90a40e2b991a4b7ec185bd04b5e5c7f56c53f4d3d9",
+		"0xb5042befbe7ef1d79b67c57281e119fc1f4a1e70dd50b0441ab406d4d22819ac",
+		"0xe7980facd88b20f9ae996370ca059f137a99dc072b9397a9fd75bdd64288096d"
+	],
+	"payload": {
+		"type": 6,
+		"essence": {
+			"type": 1,
+			"networkId": "2992164850041566767",
+			"inputs": [
+				{
+					"type": 0,
+					"transactionId": "0xce28f79cc95dad434fdca35374bae73e702c2578c72816143245d16248811003",
+					"transactionOutputIndex": 0
+				},
+				{
+					"type": 0,
+					"transactionId": "0x809b7bc69c3166510642af239d5b52e67a8e662440f9830aa24db394a57e4875",
+					"transactionOutputIndex": 1
+				}
+			],
+			"inputsCommitment": "0xc71ccf1621e9a60477af9597483d04e985f12a56f8da2f86ba660e3f8c18fc6b",
+			"outputs": [
+				{
+					"type": 4,
+					"amount": "20008053000",
+					"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6",
+					"stateIndex": 9,
+					"stateMetadata": "0x01010000006bc684b57b6f5cb6d9b07d9433db2f63b9e4d2353b75238733f83b4377f10cf9c85d5d96d17be80f010000000100000064000000010000000000",
+					"foundryCounter": 1,
+					"unlockConditions": [
+						{
+							"type": 4,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0xb265b45a0dcd96ab846acaa371d61f61756f5d1076e09ccfde36f4422148956a"
+							}
+						},
+						{
+							"type": 5,
+							"address": {
+								"type": 0,
+								"pubKeyHash": "0x5fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab5868"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x0401610232040162041027000001632201005fa0f3947052ad47137f54b3ee84ee523f367786754a7b708dc19e8f95ab586801641b76312e302e322d616c7068612e342d332d67393162393966353834"
+						}
+					]
+				},
+				{
+					"type": 3,
+					"amount": "265000",
+					"nativeTokens": [
+						{
+							"id": "0x08b1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac60100000000",
+							"amount": "0x62"
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						}
+					]
+				},
+				{
+					"type": 3,
+					"amount": "1000000",
+					"nativeTokens": [
+						{
+							"id": "0x08b1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac60100000000",
+							"amount": "0x2"
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0x92b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": 0,
+							"address": {
+								"type": 8,
+								"aliasId": "0xb1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac6"
+							}
+						},
+						{
+							"type": 2,
+							"data": "0x023f1d07c3a08ca230ab7816bdea9f5a20ced2d604025e4b3ca1e3f42300010161350392b5aba2ba45ac7e812f60d570297162f9cc77f5a95473a6b088b4afc310e743aee61a70c6ce785b2eaf350e8b66647c88073c53400108b1035868327e21632bd1e879169d9084eaaf8410621efb1687ea2ca817818ac601000000000102"
+						}
+					]
+				}
+			]
+		},
+		"unlocks": [
+			{
+				"type": 0,
+				"signature": {
+					"type": 0,
+					"publicKey": "0xa94efae9abcb81dcce21601ae926b56b29e61666d8b0fa4533dc6fca8bd56b28",
+					"signature": "0x333ce473dfdf113b4fa37f13ec63f40fc985f6cccc8ac6b19efbf366b0024a68505c61e031e36bb7fa3434d2589f78cc139d4dca0b6ee05ef56600bb0f458f0b"
+				}
+			},
+			{
+				"type": 2,
+				"reference": 0
+			}
+		]
+	},
+	"nonce": "0"
+}
