@@ -129,8 +129,7 @@ docker-compose up -d
 [golang-bech32]: https://go.dev/play/p/QnHB990_kMM
 
 [^1]: This is something that will be improved in the future but was left as is for time's sake
-[^2]:
-If this transaction sits in your activity log as 'pending' go into metamask settings -> advanced and
+[^2]: If this transaction sits in your activity log as 'pending' go into metamask settings -> advanced and
 clear activity log. This happens when you reset the chains frequently and metamask tries to use an invalid nonce for the
 transaction. Once you clear the log you can resubmit the transaction again as normal. Sometimes remix hangs for a long
 time after doing this. Simply open a new tab with remix in it, and use it. Do not close the original tab, as that has
